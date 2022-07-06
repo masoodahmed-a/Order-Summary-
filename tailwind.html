@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Summary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-indigo-200">
+    <div
+      class="container flex flex-col items-center justify-center p-10 m-auto"
+    >
+      <img src="images/illustration-hero.svg" alt="" class="rounded-t-lg" />
+
+      <div class="content text-center bg-white p-5">
+        <h3 class="text-gray-800 font-bold text-xl pb-5">Order Summary</h3>
+        <p class="text-gray-400 text-base pb-5">
+          You can now listen to million of songs, audiobooks, and podcast on any
+          device anywhere you like
+        </p>
+
+        <div class="price flex bg-indigo-50 p-3 justify-around mb-5">
+          <div class="left">
+            <img src="images/icon-music.svg" alt="" />
+          </div>
+          <div class="center text-sm">
+            <p class="font-semibold">Annual Plan</p>
+            <p>$5.99/year</p>
+          </div>
+          <div class="right text-sm mt-3">
+            <a href="#" class="underline text-indigo-600">Change</a>
+          </div>
+        </div>
+
+        <button
+          class="text-white bg-indigo-700 p-2 w-full rounded-lg drop-shadow-lg mb-3"
+        >
+          Proceed to Payment
+        </button>
+        <button class="text-gray-700 font-medium">Cancel Order</button>
+      </div>
+    </div>
+  </body>
+</html>
